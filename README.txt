@@ -5,5 +5,5 @@ sudo python3 arpspoof.py <Victim_IP> <Gateway(Router)_IP>
 
 The program is based on the Scapy package.
 
-Victim: Metaspoitable2
+Victim: Metaspoitable2 -> Hosted in VirtualBox
 Attacker: Kali -> Hosted in VirtualBox
