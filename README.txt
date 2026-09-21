@@ -9,7 +9,13 @@ Files:
 
 --------------------------------------------------
 Description:
-The 'arpspoof.py' is a python program that allows users to perform an ARP spoofing attack using a single command. It utilises the 'scapy' module to perform a Man-In-The-Middle (MITM) attack by sending forged ARP responses. The script tricks the victim into associating the attacker's MAC address with the gateway's IP. While that happens, it simultaneously tricks the gateway into associating the attacker's MAC address with the victim's IP address. The victim is Metasploitable2, and the attacker is Kali. Before the attack, the entry for the gateway's IP address will show the real gateway's MAC address. During the attack, the entry for the gateway's IP address will be overwritten and show the Attacker's MAC address.
+The 'arpspoof.py' is a python program that allows users to perform an ARP spoofing attack using a single command.
+It utilises the 'scapy' module to perform a Man-In-The-Middle (MITM) attack by sending forged ARP responses.
+The script tricks the victim into associating the attacker's MAC address with the gateway's IP.
+While that happens, it simultaneously tricks the gateway into associating the attacker's MAC address with the victim's IP address.
+The victim is Metasploitable2, and the attacker is Kali.
+Before the attack, the entry for the gateway's IP address will show the real gateway's MAC address.
+During the attack, the entry for the gateway's IP address will be overwritten and show the Attacker's MAC address.
 
 --------------------------------------------------
 Installation:
