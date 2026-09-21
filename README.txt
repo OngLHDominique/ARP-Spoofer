@@ -19,7 +19,8 @@ LANGUAGE: PYTHON
 LANGUAGE VERSION: 3.14.6
 
 ===== INSTALLATION OF LIBRARY =====
-Before running this script, ensure that you have Python3 installed and configured. If not, use the code below to install Python3 and/or Scapy.(*Remember to use 'sudo' to install with root privileges.)
+Before running this script, ensure that you have Python3 installed and configured. If not, use the code below to install Python3 and/or Scapy.
+(*Remember to use 'sudo' to install with root privileges.)
 
 To install Python3 : 'sudo pip3 install Python3'
 To install Scapy: 'sudo pip3 install scapy'
